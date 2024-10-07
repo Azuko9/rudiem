@@ -16,7 +16,7 @@ if (window.DeviceOrientationEvent) {
     const { gamma, beta } = event; // gamma: gauche-droite, beta: haut-bas
     // Appliquez l'effet similaire à Tilt.js en fonction de ces valeurs
 
-    const element = document.querySelector('.tilt');
+
     if (gamma > 25) {
       gamma = 25
     }
@@ -24,6 +24,8 @@ if (window.DeviceOrientationEvent) {
       beta = 25
 
     }
+
+    const element = document.querySelector('.tilt');
     element.style.transform = `rotateY(${gamma}deg) rotateX(${beta}deg)`;
 
 
