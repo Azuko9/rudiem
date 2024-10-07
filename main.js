@@ -34,7 +34,7 @@ if (window.DeviceOrientationEvent) {
     }
 
     const element = document.querySelector('.tilt');
-    element.style.transform = `rotateY(${gamma}deg) rotateX(${beta + 90}deg)`;
+    element.style.transform = `rotateY(${gamma}deg) rotateX(${beta - 90}deg)`;
 
 
   });
