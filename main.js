@@ -1,3 +1,26 @@
+
+
+$(document).ready(function () {
+  $(".tilt").tilt({
+    maxTilt: 20,
+    perspective: 1000,
+    speed: 400,
+    transition: true,
+  });
+});
+
+
+
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
+  max: 25,
+  speed: 400,
+  gyroscope: true // Activer le gyroscope sur mobile
+});
+
+
+
+
+
 if (window.DeviceOrientationEvent) {
     window.addEventListener("deviceorientation", handleOrientation, true);
   } else {
