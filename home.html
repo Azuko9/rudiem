@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemple de Tilt.js</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="Agador" class="tilt" data-tilt>
+      <div class="inner-element"></div>
+    </div>
+    <div id="Astrid" class="tilt" data-tilt>
+      <div class="deux">
+        <div class="inner-element"></div>
+      </div>
+    </div>
+
+    <div id="Annaolala" class="tilt" data-tilt>
+      <div class="inner-element"></div>
+    </div>
+
+    <div id="bandi" class="tilt" data-tilt>
+      <div class="deux">
+        <div class="inner-element"></div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".tilt").tilt({
+          maxTilt: 20,
+          perspective: 1000,
+          speed: 400,
+          transition: true,
+        });
+      });
+    </script>
+  </body>
+</html>

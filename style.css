@@ -1,0 +1,108 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.tilt {
+  margin: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.2s;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+}
+
+.tilt:hover{
+  width: 330px;
+  height: 440px;  .deux{
+    transform: translateZ(30px);
+    scale: 1.1;
+  }
+ 
+}
+
+.tilt:hover{
+  .inner-element {
+    transform: translateZ(60px);
+    scale: 1.2;
+  }
+}
+
+
+
+#Agador{
+  background-image: url(./Agador_chien_insta_BG.png);
+}
+
+#Agador .inner-element{
+  background-image: url(./Agador_chien_insta.png);
+}
+
+#Astrid{
+  background-image: url(./Astrid_opossum_insta_BG.png);
+}
+
+#Astrid .inner-element{
+  background-image: url(./Astrid_opossum_insta_1.png);
+}
+
+#Astrid .deux{
+  background-image: url(./Astrid_opossum_insta_2.png);
+}
+
+
+
+
+
+
+#Annaolala{
+  background-image: url(./Annaolala_chat_insta_BG.png);
+}
+
+#Annaolala .inner-element{
+  background-image: url(./Annaolala_chat_insta.png);
+}
+
+#bandi{
+  background-image: url(./bandit_chien_insta_BG.png);
+}
+
+#bandi .inner-element{
+  background-image: url(./bandit_chien_insta_1.png);
+}
+
+#bandi .deux{
+  background-image: url(./bandit_chien_insta_2.png);
+}
+
+
+.tilt {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.deux{
+  transform-style: preserve-3d;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  transition: 0.2s;
+}
+
+.inner-element{
+   
+   background-size: cover;
+   width: 300px;
+   height: 400px;
+   transition: 0.2s;
+}
+
+
