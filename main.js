@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   $(".tilt").tilt({
-    maxTilt: 20,
+    maxTilt: 25,
     perspective: 1000,
     speed: 400,
     transition: true,
