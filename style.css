@@ -9,7 +9,7 @@ body{
 
 
 .tilt {
-  margin: 20px;
+  margin: 80px 20px;
   transform-style: preserve-3d;
   transition: transform 0.2s;
   background-size: cover;
