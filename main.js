@@ -15,8 +15,16 @@ if (window.DeviceOrientationEvent) {
   window.addEventListener('deviceorientation', function(event) {
     const { gamma, beta } = event; // gamma: gauche-droite, beta: haut-bas
     // Appliquez l'effet similaire à Tilt.js en fonction de ces valeurs
+
     const element = document.querySelector('.tilt');
-    element.style.transform = `rotateY(${gamma*0.5}deg) rotateX(${beta*0.5}deg)`;
+    element.style.transform = `rotateY(${gamma}deg) rotateX(${beta}deg)`;
+    if (gamma >25) {
+      gamma =25
+    }
+    if (beta<25) {
+      beta =25
+      
+    }
   });
 } else {
   $('.tilt').tilt(); // Active Tilt.js pour desktop
