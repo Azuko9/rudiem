@@ -21,7 +21,7 @@ if (window.DeviceOrientationEvent) {
       gamma = 25
     }
 
-    if (gamma > -25) {
+    if (gamma < -25) {
       gamma = -25
     }
     if (beta > 25) {
