@@ -16,8 +16,8 @@ body{
   justify-content: center;
   align-items:  center;
   margin: 40px;
-  border: solid 40px rgb(255, 255, 255);
-  border-radius: 60px;
+  border: solid 50px rgb(255, 255, 255);
+  border-radius: 80px;
 }
 
 .cadre {
