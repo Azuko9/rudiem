@@ -18,7 +18,7 @@ body{
   align-items:  center;
 }
 
-.tilt:hover{
+.tilt{
   width: 330px;
   height: 440px;  .deux{
     transform: translateZ(30px);
@@ -27,7 +27,7 @@ body{
  
 }
 
-.tilt:hover{
+.tilt{
   .inner-element {
     transform: translateZ(60px);
     scale: 1.2;
